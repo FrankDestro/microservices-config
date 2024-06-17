@@ -5,12 +5,12 @@ eureka:
     instance:
         instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 server:
-    port: 8080
+    port: ${PORT:0}
 spring:
     datasource:
         password: ''
         url: jdbc:h2:mem:testdb
-        username: saf
+        username: sa
     h2:
         console:
             enabled: true
