@@ -1,0 +1,16 @@
+ouath:
+  client:
+    name: myappclient
+    secret: myappclient123
+    
+security:
+  oauth2:
+    resourceserver:
+      jwt:
+        public-key: |
+          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsGkG4Ayc2g4LOqvqiFvSeRtyF
+          -6ppsGohGhztqzNjj_w2R5vwJnb3OyAWlNeIAb3hBnTQDRD10PFhd2jKfVcmo9NLLOa3
+          -bsT3wIfjqIqYpEs7U_O8IV-rsqEHwBmA16goIvpXs2pnqrz-8Rpm1W0XjDzXNnkP1o2
+          FokZ6r3XosMuLG02rfGE58ZIO6iPbYEkQaATWWmfv8uLNKKO7A-9l9PvZ4wknbJ8j4e
+          5C2CxRPvmBLv9iLEYgkbyu3tXkxkIBArvp6Yv4aWQnx3glDe7BRybDDn1gH2-z1hbn9
+          VnAIgbeJP-no8c864rpXJzZ6oo5_O25sz8nzsmKb6mjxqpQ
