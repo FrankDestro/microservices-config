@@ -1,6 +1,6 @@
 <configuration>
     <appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
-        <destination>logstash-server:5044</destination>
+        <destination>logstash-hr-microservice:5044</destination> <!-- Nome do serviço no Docker Compose -->
         <encoder class="net.logstash.logback.encoder.LogstashEncoder" />
     </appender>
 
